@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "C:/Users/82012/Documents/Gowin/Tang9k-lcdled/src/TOP.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/82012/Documents/Gowin/Tang9k-lcdled/src/TOP.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/82012/Documents/Gowin/Tang9k-lcdled/src/TOP.v",
+    "InstLine" : 36,
+    "InstName" : "chip_pll",
+    "ModuleFile" : "C:/Users/82012/Documents/Gowin/Tang9k-lcdled/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/82012/Documents/Gowin/Tang9k-lcdled/src/TOP.v",
+    "InstLine" : 43,
+    "InstName" : "D1",
+    "ModuleFile" : "C:/Users/82012/Documents/Gowin/Tang9k-lcdled/src/VGAMod2.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "VGAMod2"
+   }
+  ]
+ }
+]

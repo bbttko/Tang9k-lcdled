@@ -1,0 +1,24 @@
+{
+ "Files" : [
+  {
+   "Path" : "C:/Users/82012/Documents/Gowin/Tang9k-lcdled/src/TOP.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/82012/Documents/Gowin/Tang9k-lcdled/src/VGAMod2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/82012/Documents/Gowin/Tang9k-lcdled/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/82012/Documents/Gowin/Tang9k-lcdled/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}
