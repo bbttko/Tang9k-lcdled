@@ -7,6 +7,7 @@
     <FileList>
         <File path="src/TOP.v" type="file.verilog" enable="1"/>
         <File path="src/VGAMod2.v" type="file.verilog" enable="1"/>
+        <File path="src/div3.v" type="file.verilog" enable="1"/>
         <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
         <File path="src/Tang_nano_9K_LCD.cst" type="file.cst" enable="1"/>
         <File path="src/Tang_nano_9K_LCD.sdc" type="file.sdc" enable="1"/>

@@ -14,25 +14,16 @@ module top (
         output reg [5:0]   LED
     );
 
-// not stable
-//    reg CLK_SYS;
-//    reg [1:0] clkcount;
-//    always @(posedge CLK_27M or negedge Reset_Button) begin
-//        if (!Reset_Button) begin
-//            clkcount <= 2'b0;
-//            CLK_SYS <= 1'b0;
-//        end else begin
-//            if (clkcount == 2'b11) begin
-//                clkcount = 2'b0;
-//                CLK_SYS <= !CLK_SYS;
-//            end else 
-//                clkcount = clkcount + 1'b1;
-//        end
-//    end
-//    wire CLK_PIX = !CLK_SYS;
 
 	wire		CLK_SYS;
 	wire		CLK_PIX;
+
+//    div3 divideby3 (
+//		.clk_i  (CLK_27M),
+//		.clk_o  (CLK_SYS),
+//        .clk_o_inv  (CLK_PIX)
+//    );
+
     Gowin_rPLL chip_pll (
         .clkin(CLK_27M), //input clk @27MHz
         .clkout(CLK_SYS), //system clock CLK_SYS @9 MHz
